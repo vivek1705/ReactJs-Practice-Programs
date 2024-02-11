@@ -1,0 +1,71 @@
+.rc{
+  background-color: cyan;
+}
+
+.fragment
+{
+  background-color: rgb(255, 230, 0);
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.List3 {
+  background-color: orange;
+  display: flex;
+  flex-wrap: nowrap; /* Ensures the items stay in a single line */
+  justify-content: space-between; /* Adjust as needed to control spacing */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.List3 > div {
+  flex: 0 0 auto; /* Ensures each item takes its content size and doesn't grow or shrink */
+  margin-right: 20px; /* Adjust as needed to control space between items */
+}
+
+/* Optional: Add some styling to the individual book entries */
+.List3 h2 {
+  margin-bottom: 5px;
+}
+
+.List3 p {
+  margin: 0;
+}
+
+.lists{
+  background-color:aliceblue
+}
+
+.fc{
+  background-color: rgb(7, 112, 112);
+}
+
+.cc{
+  background-color: brown;
+}
+
+.pc{
+  background-color: cornflowerblue;
+}
+
+.userprofile{
+  background-color:cyan
+}
+
+.parentclass{
+  background-color: darkgoldenrod;
+}
+
+.counter{
+  background-color:darkviolet;
+}
+
+.counter button{
+  background-color: yellow;
+}
+
+.state{
+  background-color:chartreuse;
+}
